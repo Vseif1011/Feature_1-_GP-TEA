@@ -32,12 +32,13 @@ Creates:
 - `symptom_model.labels.npy`
 - `symptom_model.features.txt`
 
-## Evaluate Saved Model (no retraining)
+## Evaluate Saved Model 
 ```bash
 python symptom_checker.py --eval-only --csv cleaned_dataset.csv --artifacts-prefix symptom_model
 ```
+##HERE
 
-## Interactive Predictions (No Training Needed)
+## Interactive Predictions
 ```bash
 python symptom_checker.py --interactive-only --artifacts-prefix symptom_model
 ```
